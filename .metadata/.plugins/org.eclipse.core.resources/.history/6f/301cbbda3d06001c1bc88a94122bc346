@@ -1,0 +1,23 @@
+package abraka;
+class Call{
+	int a,b,c;
+	int add(int m, int n) {
+		a=m;
+		b=n;
+		c=a+b;
+		return c;
+	}
+}
+class Mee extends Call{
+	String add(String d1,String d2) {
+		return (d1+d2);
+	}
+	}
+public class Mor {
+public static void main(String[] args ) {
+	Call n= new Call();
+	Mee m=new Mee();
+	System.out.println(n.add(3, 6));
+	System.out.println(m.add("my","code"));	
+}
+}

@@ -1,0 +1,33 @@
+package abraka;
+import java.util.*; 
+class New{
+	int n1,n2,n3,i;
+	void loop(int a, int b, int c) {
+		n1=a;
+		n2=b;
+		n3=c;
+		i=a;
+		while (i <= b) {
+			  System.out.println(i);
+			  i=i+c;
+	
+		}
+	}
+}
+
+public class Temp {
+	public static void main(String args[]) {
+		Scanner sc= new Scanner(System.in);     
+		System.out.print("Enter first number- ");  
+		int a= sc.nextInt();  
+		System.out.print("Enter second number- ");  
+		int b= sc.nextInt();
+		System.out.print("Enter the jump-  ");  
+		int c= sc.nextInt();  
+		New n=new New();
+		n.loop(a,b,c);
+	
+	}
+			
+
+}

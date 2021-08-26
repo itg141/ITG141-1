@@ -1,0 +1,24 @@
+package abraka;
+class New{
+	int n1,n2,i;
+	void loop(int a, int b) {
+		n1=a;
+		n2=b;
+		i=a;
+		while (i < b) {
+			  System.out.println(i);
+			  i++;
+	
+		}
+	}
+}
+
+public class Temp {
+	public static void main(String args[]) {
+		New n=new New();
+		n.loop(10,20);
+	
+	}
+			
+
+}

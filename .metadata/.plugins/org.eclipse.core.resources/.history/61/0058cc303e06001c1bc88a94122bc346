@@ -1,0 +1,26 @@
+package abraka;
+class Cal{
+	int a,b,c;
+	int pro(int m, int n) {
+		a=m;
+		b=n;
+		c=a*b;
+		return c;
+	}
+}
+class Me {
+	int sq(int d) {
+		a=d;
+		b=d;
+		pro(a,b);
+		return c;
+	}
+	}
+public class Mol {
+public static void main(String[] args ) {
+	Cal n= new Cal();
+	Me m=new Me();
+	System.out.println(n.pro(3, 6));
+	System.out.println(m.sq(3));	
+}
+}

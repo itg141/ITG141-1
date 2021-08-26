@@ -1,0 +1,11 @@
+//Check whether the year is Leap year or not.
+package neww;
+
+public class ThirdrProgram {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

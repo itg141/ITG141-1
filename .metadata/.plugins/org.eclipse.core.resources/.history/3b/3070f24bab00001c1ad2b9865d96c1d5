@@ -1,0 +1,181 @@
+Kanapareddy Bhavani<kanapareddybhavani2000 @gmail.com>
+
+Aug 18,2021,11:13 PM(11 hours ago)
+
+to me
+
+import java.util.ArrayList;
+
+public class Methodall {
+public static void main(String args[]) {
+ArrayList li = new ArrayList();
+li.add("hari");
+li.add("bhavani");
+li.add("ramya");
+li.add("Dhoni");
+System.out.println("arraylist:"+li);
+System.out.println("arraylist size:"+li.size());
+li.removeAll(li);
+System.out.println("arraylist:"+li);
+System.out.println("arraylist size:"+li.size());
+li.add("hari");
+li.add("bhavani");
+li.add("ramya");
+li.add("binita");
+li.addAll(li);
+System.out.println("arraylist:"+li);
+System.out.println("arraylist size:"+li.size());
+
+}
+}
+
+import java.util.*;
+
+public class Linkedlist{  
+public static void main(String args[]){  
+LinkedList al=new LinkedList();  
+al.add("Raveti");  
+al.add("Vijaya");  
+al.add("Ramya");  
+al.add("Ajit");  
+Iterator it=al.iterator();  
+while(it.hasNext()){  
+System.out.println(it.next());  
+}  
+}  
+}
+
+import java.util.*;
+
+public class Hashsetdemo {
+public void doHashSetExample() {
+HashSet s = new HashSet();
+s.add("bhavani");
+s.add("vani");
+s.add("bhanu");
+s.add("bhavana");
+s.add("bhargavi");
+s.add("bharathi");
+System.out.println(s);
+Iterator i = s.iterator();
+while(i.hasNext()) {
+System.out.println(i.next());
+}
+System.out.println(s.isEmpty());
+System.out.println(s.contains("bhavana"));
+System.out.println(s.remove("bhavani"));
+System.out.println(s);
+System.out.println(s);
+}
+public static void main(String[] args) {
+Hashsetdemo set = new Hashsetdemo();
+set.doHashSetExample();
+}
+}
+
+import java.util.*;
+
+public class Doremovall {
+public static void main(String args[]) {
+ArrayList li = new ArrayList();
+li.add("hai");
+li.add("bhavani");
+li.add(113);
+li.add('D');
+System.out.println("arraylist:"+li);
+System.out.println("arraylist size:"+li.size());
+li.removeAll(li);
+System.out.println("arraylist:"+li);
+System.out.println("arraylist size:"+li.size());
+li.add("hai");
+li.add("bhavani");
+li.add(113);
+li.add('D');
+li.addAll(li);
+System.out.println("arraylist:"+li);
+System.out.println("arraylist size:"+li.size());
+
+}
+}
+
+import java.util.*;
+
+public class Doremov {
+public static void main(String args[]) {
+ArrayList li = new ArrayList();
+li.add("hai");
+li.add("bhavani");
+li.add(113);
+li.add('D');
+li.remove(2);
+System.out.println("arraylist:"+li);
+}
+}
+
+import java.util.*;
+
+public class Demovector {
+public static void main(String args[]) {
+Vector vect = new Vector();
+String s1 = "lakshmi";
+String s2 = "Bhavani";
+vect.add(s1);
+vect.add(s2);
+vect.add("bhanu");
+System.out.println(vect);
+System.out.println(vect.size());
+System.out.println(vect.elementAt(2));
+System.out.println(vect.firstElement());
+System.out.println(vect.lastElement());
+vect.insertElementAt("bhanu", 2);
+System.out.println(vect);
+vect.setElementAt("ramya", 0);
+System.out.println(vect);
+Enumeration e = vect.elements();
+while(e.hasMoreElements()) {
+System.out.println(e.nextElement());
+}
+
+}
+
+}
+
+import java.util.*;
+
+public class Demoset {
+	public void doHashSetExample() {
+		HashSet s = new HashSet();
+		s.add(8);
+		s.add(5);
+		s.add(5);
+		s.add(4);
+		s.add(3);
+		s.add(2);
+		System.out.println(s);
+		Iterator i = s.iterator();
+		while (i.hasNext()) {
+			System.out.println(i.next());
+		}
+		TreeSet t = new TreeSet();
+		t.add(8);
+		t.add(5);
+		t.add(5);
+		t.add(4);
+		t.add(3);
+		t.add(2);
+		System.out.println(t);
+		LinkedHashSet h = new LinkedHashSet();
+		h.add(8);
+		h.add(5);
+		h.add(5);
+		h.add(4);
+		h.add(3);
+		h.add(2);
+		System.out.println(h);
+	}
+
+	public static void main(String[] args) {
+		Demoset set = new Demoset();
+		set.doHashSetExample();
+	}
+}

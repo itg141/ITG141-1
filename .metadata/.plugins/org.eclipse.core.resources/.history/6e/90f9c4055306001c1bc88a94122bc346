@@ -1,0 +1,6 @@
+//Check whether the student is passed or failed and if he got passed print which rank obtained.
+package neww;
+
+public class FifthProgram {
+
+}

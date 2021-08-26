@@ -1,0 +1,25 @@
+package abraka;
+class Start{
+int n=1,m;
+int star(int i) {
+	if (i==0) {
+		n = 1;	
+	}
+	else {
+		m=i;
+		while(m>0) {
+			n = m*star(m-1);
+			m++;
+		}
+	}
+	return n;
+}
+}
+
+public class Factorial {
+	public static void main(String[] args) {
+	Start p=new Start();
+	System.out.println(p.star(3));
+	
+	}
+}

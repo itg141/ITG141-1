@@ -1,0 +1,29 @@
+package abraka;
+/*class Test{
+	int a,b;
+	float c;
+	void no(int p) {
+		p=a;
+		while(p>10) {
+			c=(int)(p/10);
+			b++;
+			
+					
+		}
+	}
+}
+public class Nod {
+
+}*/
+public class Nod {
+
+	  public static void main(String[] args) {
+
+	    int count = 0, num = 123456;
+
+	    for (; num != 0; num /= 10, ++count) {
+	    }
+
+	    System.out.println("Number of digits: " + count);
+	  }
+	}

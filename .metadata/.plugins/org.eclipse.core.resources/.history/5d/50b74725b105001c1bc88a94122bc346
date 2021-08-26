@@ -1,0 +1,30 @@
+package abraka;
+import java.util.*; 
+class New{
+	int n1,n2,i;
+	void loop(int a, int b) {
+		n1=a;
+		n2=b;
+		i=a;
+		while (i <= b) {
+			  System.out.println(i);
+			  i++;
+	
+		}
+	}
+}
+
+public class Temp {
+	public static void main(String args[]) {
+		Scanner sc= new Scanner(System.in);     
+		System.out.print("Enter first number- ");  
+		int a= sc.nextInt();  
+		System.out.print("Enter second number- ");  
+		int b= sc.nextInt();  
+		New n=new New();
+		n.loop(a,b);
+	
+	}
+			
+
+}

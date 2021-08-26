@@ -1,0 +1,38 @@
+import java.util.*;
+
+import com.sun.tools.classfile.Code_attribute.InvalidIndex;
+
+import InvalidusernameException.Userdefineexcep.InvalidusernameEx;
+
+class InvalidusernameException{
+	public static void main(String args[]) {
+		Userdefineexcep u = new Userdefineexcep();
+		try {
+			u.login();
+		}
+		catch (Invalidusernameexcep e) {
+			System.out.println(e);
+		}
+	}
+public class Userdefineexcep {
+	static String name ="Bhavani";
+	static String password="12345";
+	
+	void login()throws InvalidusernameEx {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter username");
+	    System.out.println("enter userpassword");
+		String uname = sc.nextLine();
+		String upass = sc.nextLine();
+		if(name==uname && password==upass) {
+			System.out.println("welcome to login page");
+		}else {
+			throw InvalidusernameEx();
+		}
+	 	
+	}
+	class InvalidusernameEx extends Exception{
+		
+	}
+}
+	

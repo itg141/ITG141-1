@@ -1,0 +1,19 @@
+
+
+public class Palindrome {
+  public static void main(String args[]) {
+	String s = "";
+	String pal = "MADAM";
+	int len = pal.length();
+	for(int i = len-1;i>=0;i--) {
+		s = s+pal.charAt(i);
+	}
+	if(s.equals(pal)) {
+		System.out.println("Palindrome");
+	}else {
+		System.out.println("Not a palindrome");
+	}
+	  
+	  
+ }
+}
