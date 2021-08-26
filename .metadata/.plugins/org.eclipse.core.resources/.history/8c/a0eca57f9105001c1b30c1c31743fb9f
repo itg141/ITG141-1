@@ -1,0 +1,17 @@
+package method;
+class Test
+{
+	public int num()
+	{
+		return 19;
+	}
+}
+public class Demo {
+
+	public static void main(String[] args) {
+		Test t=new Test();
+		System.out.println(t.num());
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package swarna;
+class Num
+{
+	public int digit()
+	{
+		int i=500;
+		do
+		{
+			i++;
+			return i;
+		
+		}while(i<=5000);
+	}
+}
+
+public class number {
+ public static void main(String args[])
+ {
+	 Num n = new Num();
+	 System.out.println(n.digit());
+ }
+}

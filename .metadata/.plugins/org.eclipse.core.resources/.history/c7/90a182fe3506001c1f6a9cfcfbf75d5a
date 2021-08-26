@@ -1,0 +1,27 @@
+package swarna;
+class Fruit
+{
+	void apple()
+	{
+	int a=100;
+	System.out.println(a);
+	}
+}
+	class pineapple extends fruit
+	{
+		void apple()
+		{
+			String st="pineapple";
+			System.out.println(st);
+		}
+		
+}
+public class mover {
+
+	public static void main(String[] args) {
+		Fruit f = new Fruit();
+		
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package swarna;
+class Variab
+{
+	int a=10;
+	static String name="swarna";
+}
+public class variab {
+	public static void main(String args[])
+	{
+		Variab dc=new Variab();
+		System.out.println(dc.a+" "+dc.name);
+		
+		
+	}
+
+}

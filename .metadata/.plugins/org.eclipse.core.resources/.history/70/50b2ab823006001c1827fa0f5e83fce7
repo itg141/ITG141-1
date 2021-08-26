@@ -1,0 +1,17 @@
+package swarna;
+class Stat
+{
+	static int a=23;
+
+static 
+{
+	System.out.println("Static block");
+}
+}
+public class stat
+{
+	public static void main(String args[]) {
+	Stat s = new Stat();
+	System.out.println(s.a);
+	}
+}

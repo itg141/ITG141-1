@@ -1,0 +1,12 @@
+package swarna;
+class Stat
+{
+	static int a=23;
+}
+static stat
+{
+	public static void main(String args[]) {
+	Stat s = new Stat();
+	System.out.println(s.a);
+	}
+}

@@ -1,0 +1,12 @@
+package swarna;
+class Stint
+{
+	public int sub(int a,int b)
+	{
+		
+	}
+}
+
+public class intpara {
+
+}

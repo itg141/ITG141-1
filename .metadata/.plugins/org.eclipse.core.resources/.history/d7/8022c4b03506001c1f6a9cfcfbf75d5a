@@ -1,0 +1,18 @@
+package swarna;
+class fruit
+{
+	int a=100;
+	System.out.println(a);
+}
+	class apple extends fruit
+	{
+		
+}
+public class mover {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

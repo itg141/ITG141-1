@@ -1,0 +1,11 @@
+package swarna;
+class Stat
+{
+	static String a= "raj";
+	{
+ public static void main(String args[]) {
+	 Stat s=new Stat();
+	 s.a="swarna";
+	 System.out.println(s);
+ }
+}
