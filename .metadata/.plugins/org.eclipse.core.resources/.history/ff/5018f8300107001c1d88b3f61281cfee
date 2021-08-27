@@ -1,0 +1,40 @@
+package project;
+
+import java.util.Scanner;
+
+public class DrivenC {
+
+	public static void main(String[] args) {
+		int a,b,x,n;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter value:");
+		n=sc.nextInt();
+	Cal c=new Cal();
+	c.add();
+	c.sub();
+	c.div();
+	c.mul();
+	c.mod();
+
+	}
+	class Cal{
+	int a,b;
+		public void add() {
+			System.out.println(a+b);
+		}
+		public void sub() {
+			System.out.println(a-b);
+	}
+		public void mul() {
+			System.out.println(a*b);
+}
+		public void div() {
+			System.out.println(a/b);
+		}
+		public void mod() {
+			
+			System.out.println(a%b);
+		}
+	}
+}
+	

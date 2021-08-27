@@ -1,0 +1,17 @@
+package project;
+
+public class Spell {
+
+	public static void main(String[] args) {
+		int to = 0;
+		Object convert = to-words("90".toCharArray());
+
+
+	}
+
+	private static int words(char[] charArray) {
+		
+		return 0;
+	}
+
+}

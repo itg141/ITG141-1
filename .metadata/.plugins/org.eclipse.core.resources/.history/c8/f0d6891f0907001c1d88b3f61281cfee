@@ -1,0 +1,18 @@
+package project;
+
+import java.util.Scanner;
+
+public class Neven {
+
+	
+
+	public static void main(String[] args) {
+		int n=20,i;
+		
+			for(i=1;i<=n;i++)
+				if(i%2==0)
+				System.out.println("even numbers:"+n);
+		
+			++i;
+}
+}

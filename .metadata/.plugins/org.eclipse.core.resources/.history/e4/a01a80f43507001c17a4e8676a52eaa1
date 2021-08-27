@@ -1,0 +1,20 @@
+package project;
+
+import java.util.Scanner;
+
+public class number {
+
+	public static void main(String[] args) {
+		int a,b = 0,c = 0;
+		c=a+b;
+		Scanner s=new Scanner(System.in);
+		System.out.println("enter a number:");
+		a=s.nextInt();
+		while((a>50)&&(b<50)) {
+			
+		
+		}
+		
+	}
+
+}

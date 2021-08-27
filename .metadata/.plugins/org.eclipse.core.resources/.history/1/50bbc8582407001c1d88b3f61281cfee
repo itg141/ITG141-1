@@ -1,0 +1,32 @@
+package project;
+
+import java.util.Scanner;
+
+public class series {
+	public static void main(String[] args) {
+		int x,n;
+		double sum=0;
+		Object math;
+		for(int i = 1;i<n;i++)
+			sum=sum+ math.pow(x,i)/fact(i);
+	
+	
+	private static int fact(int i) {
+		
+		return 0;
+	}
+
+	class series{
+		public void fact1{
+		int n,i,fact=1;
+		Scanner  s=new Scanner(System.in);
+		System.out.println("the factorial:");
+		n=s.nextInt();
+		for(i=1;i<=n;i++)
+			fact=fact*i;
+		System.out.println("facorial" + n + "is:"+fact);
+
+	}
+
+}
+	}

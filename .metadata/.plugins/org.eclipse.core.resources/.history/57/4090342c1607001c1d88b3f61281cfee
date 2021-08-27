@@ -1,0 +1,21 @@
+package project;
+
+import java.util.Scanner;
+
+public class Validate {
+	public static void main(String[] args) {
+		int n,range,count;
+		Scanner s=new Scanner(System.in);
+		System.out.println("the range:");
+		n=s.nextInt();
+		while((range>=2)||(range<=10)&&(count<2)) {
+			System.out.println("the range is reached");
+			if(count<2)
+				System.out.println("particular level");
+			else
+				System.out.println("failed");
+		}
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+package project;
+
+import java.util.Scanner;
+
+public class Digit {
+
+	public static void main(String[] args) {
+		int n;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter");
+		n=sc.nextInt();
+		switch(n){
+		case 1:System.out.println("digit");
+		break;
+		case 2:System.out.println("case2");
+		break;
+		}
+		
+
+	}
+
+}

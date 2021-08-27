@@ -1,0 +1,19 @@
+package project;
+
+import java.util.Scanner;
+
+public class Neven {
+
+	
+
+	public static void main(String[] args) {
+		int i,n = 0;
+		System.out.println("even numbers are:");
+		
+			for(i=1;i<=n;i++)
+				if(n%2==0)
+				System.out.println(n+"\t");
+
+	}
+
+}

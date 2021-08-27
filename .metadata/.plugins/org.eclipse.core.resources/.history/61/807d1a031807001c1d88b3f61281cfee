@@ -1,0 +1,14 @@
+package project;
+
+import java.util.Scanner;
+
+public class loop {
+	public static void main(String[] args) {
+	int i,n=20;
+	System.out.println("the number:");
+		for(i=1;i<=n;i++)
+			if(n%2==0)
+				System.out.println(n);
+
+}
+}

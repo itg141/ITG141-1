@@ -1,0 +1,11 @@
+package project;
+
+public class Spell {
+
+	public static void main(String[] args) {
+		convert-to-words("90".toCharArray());
+
+
+	}
+
+}

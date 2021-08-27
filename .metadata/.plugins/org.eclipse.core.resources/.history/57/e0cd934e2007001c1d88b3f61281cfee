@@ -1,0 +1,15 @@
+package project;
+
+public class prime {
+
+	public static void main(String[] args) {
+		int i=0,n=0;
+		
+			for(n=1;n<=10;n++)
+			if(i%n==0)
+				System.out.println("enter:"+n);
+		
+
+	}
+
+}

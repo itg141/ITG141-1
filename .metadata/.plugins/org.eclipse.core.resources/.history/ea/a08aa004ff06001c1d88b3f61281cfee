@@ -1,0 +1,25 @@
+package project;
+
+import java.util.Scanner;
+
+public class Digit {
+
+	public static void main(String[] args) {
+		System.out.println("checking for digit");
+		char val=5;
+		System.out.println("Value:"+val);
+		if(Character.isDigit(val)) {
+			System.out.println("character is a digit");
+		}
+		else {
+			System.out.println("character is a number");
+		}
+		
+		
+	
+		
+		
+
+	}
+
+}

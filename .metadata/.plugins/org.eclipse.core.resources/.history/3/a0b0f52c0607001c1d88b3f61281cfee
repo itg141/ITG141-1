@@ -1,0 +1,21 @@
+package project;
+
+import java.util.Scanner;
+
+public class Square {
+
+	private static int i;
+
+	public static void main(String[] args) {
+		int a,b;
+		Scanner s=new Scanner(System.in);
+		System.out.println("enter a number:");
+		a=s.nextInt();
+		for(i=1;i<=20;i++)
+		b=a*a;
+		System.out.println("square is:"+b);
+		
+
+	}
+
+}
