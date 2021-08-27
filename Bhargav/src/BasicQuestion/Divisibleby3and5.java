@@ -3,7 +3,7 @@ package BasicQuestion;
 public class Divisibleby3and5 {
 
 	public static void main(String[] args) {
-		int num=10;
+		int num=15;
 		if(num%3==0 &&num%5==0) {
 			System.out.print("The number "+num+" is divisible by 3 and 5 ");
 		}

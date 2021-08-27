@@ -1,0 +1,20 @@
+package basicquestion;
+//Demo of Fibonacci series.
+public class Fibanocci {
+	void Return(int a,int b,int n) {
+		int sum=0;
+		for(int i=1;i<=n;i++) {
+			a=a+b;
+			//sum=sum+i;
+			b=i;
+		}
+		System.out.println(b);
+	}
+	public static void main(String[] args) {
+		
+			Fibanocci f= new Fibanocci();
+			f.Return(1,2,10);
+		
+	}
+
+}
