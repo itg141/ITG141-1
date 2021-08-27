@@ -1,0 +1,21 @@
+package basicquestion;
+
+public class Factorial {
+ void fact(int n) {
+		if(n>=0) {
+			for(int i=n;;i--)
+			int a=n*f.recur(n);
+		System.out.println(a);
+		}
+		
+	}
+ int recur(int a) {
+	 return a--;
+ }
+
+	public static void main(String[] args) {
+		Factorial f=new Factorial();
+        f.fact(5);
+	}
+
+}
