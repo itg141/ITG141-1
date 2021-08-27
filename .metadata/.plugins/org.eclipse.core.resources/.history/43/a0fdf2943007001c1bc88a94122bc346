@@ -1,0 +1,29 @@
+package neww;
+import java.util.*;
+public class P41 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Enter a number to check");
+		Scanner sc= new Scanner(System.in); 
+		int r= sc.nextInt();
+		int n=242,c=0;
+			int t=n/10;
+			if (t%10==r) {
+				c++;
+				t=n/10;
+				if(t%10==r) {
+					c++; 
+					System.out.println(c);
+				}
+				else {
+					System.out.println(c);
+					
+				}
+		
+		}
+			else {
+				System.out.println("not found");
+				}
+}
+}

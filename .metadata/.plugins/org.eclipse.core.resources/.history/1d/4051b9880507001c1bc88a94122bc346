@@ -1,0 +1,22 @@
+//Armstrong number
+package neww;
+
+public class P50 {
+
+	public static void main(String[] args) {
+		int count = 0, num = 153;
+		int c=0,d=0,e,p=0;
+		while (num != 0) {
+			  int x=num
+		      num %= 10;
+			  e=x %= 10;
+		      c=p*p*p;
+		      d=d+c;
+		      if (d==num) 
+		    	  System.out.println("Armstrong Number"+d);
+		      else
+		    	  System.out.println("Not Armstrong Number"+d);
+		    }
+	}
+
+}

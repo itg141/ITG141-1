@@ -1,0 +1,28 @@
+//Write a program to read in 10 numbers and compute the average, maximum and minimum values.
+package neww;
+import java.util.*;
+public class P40{
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        double a;
+        int c = 0, s = 0, n, min = 0, max = 0;
+        System.out.println("Please enter the number of numbers you wish to evaluate:");
+        do {
+            n = sc.nextInt();
+            s += n;
+            c++;
+        } while (c < 5);
+        a = s / 5;
+        {
+            if (n > max) {
+                max = n;
+            }
+            if (n < min) {
+                min = n;
+            }
+        }
+        System.out.println("Your average is: " + a);
+        System.out.println("Your maximum number is: " + max);
+        System.out.println("Your minimum number is: " + min);
+    }
+}

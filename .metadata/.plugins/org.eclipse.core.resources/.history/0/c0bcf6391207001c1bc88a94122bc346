@@ -1,0 +1,14 @@
+//Write a program to read in 10 numbers and compute the average, maximum and minimum values.
+package neww;
+class Checker{
+	void tester()
+}
+
+public class P40 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

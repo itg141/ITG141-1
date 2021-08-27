@@ -1,0 +1,15 @@
+package neww;
+public class P21 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n=5,m;
+		float r=0;
+		for(int i=1;i<=n;i++) {
+			r=r+(1/i);
+		}
+		System.out.println(r);
+
+	}
+
+}

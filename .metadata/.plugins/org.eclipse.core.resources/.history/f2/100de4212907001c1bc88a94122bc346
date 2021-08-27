@@ -1,0 +1,19 @@
+package neww;
+
+public class P42 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int m=0,n=666;
+		while(n>0) {
+			int rn=n%10;
+			if(m==rn) {
+				System.out.println("all digits aer equal");
+;
+			}
+			n=n/10;
+		}
+
+	}
+
+}

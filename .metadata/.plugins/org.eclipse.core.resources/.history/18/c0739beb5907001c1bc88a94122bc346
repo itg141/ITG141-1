@@ -1,0 +1,14 @@
+//Program to delete given character from given string.
+package string;
+	
+public class P1 {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s="worlld";
+		String S=s.replaceFirst("l","");
+		System.out.println(s);
+		System.out.println(S);
+		
+	}
+
+}
