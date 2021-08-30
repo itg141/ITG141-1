@@ -9,9 +9,9 @@ Scanner sc = new Scanner(System.in);
 System.out.println("Enter the string");
 str=sc.nextLine();
 for(int i=0;i<str.length()-1;i++) {
-if(Character.isWhitespace(str.charAt(i))) {
-count++;
-}
+	if(Character.isWhitespace(str.charAt(i))) {
+		count++;
+	}
 }
 sp=count;
 wds = sp+1;
