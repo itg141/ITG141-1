@@ -1,0 +1,17 @@
+package string;
+// to make the first letter of every word into upper
+public class UpperFirst {
+
+	public static void main(String[] args) {
+		String str= "miracle city in bogapuram";
+		for(int i=0;i<=str.length();i++) {
+			if(Character.isWhitespace(str.charAt(i))) {
+				//char ch[]=str.toCharArray();
+				//str.toUppercase((str.charAt(i+1)));
+			}
+		}
+		System.out.println(str);
+
+	}
+
+}

@@ -9,7 +9,6 @@ public class DeleteaChar {
 		String s = s3.nextLine();
 		System.out.printf("enter a character:");
 		String s1 = s3.nextLine();
-		s3.close();
 		String S=s.replaceFirst(s1,"");
 		System.out.println(s);
 		System.out.println(S);

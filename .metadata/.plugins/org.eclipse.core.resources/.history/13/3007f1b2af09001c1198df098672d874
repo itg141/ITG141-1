@@ -5,20 +5,20 @@ public class Noofwordsandchar {
 
 	public static void main(String[] args) {
 		String str;
-		int count=0,words,c=0;
+		int count=0,sp,words,count1=0,vl,count2=0,con, schar,c=0;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the string :");
 		str=sc.nextLine();
-		sc.close();
 		for(int i=0;i<str.length()-1;i++) {
 			if(Character.isWhitespace(str.charAt(i))) 
 				count++;
 		}
 		words = count+1;
-		System.out.println("No of spaces ="+count);
-		System.out.println("No of words ="+words);
+		System.out.println("no of spaces ="+count);
+		System.out.println("no of words ="+words);
 		char ch[]=str.toCharArray();
-		for(int i=1;i<=ch.length;i++) {
+		int m=ch.length;
+		for(int i=1;i<=m;i++) {
 			c++;
 		}
 		System.out.println("no of characters="+(c-count));
