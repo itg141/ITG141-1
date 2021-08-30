@@ -17,10 +17,10 @@ public class ComparewithoutPredefinedFunctions {
 				//System.out.print(count);	
 				//System.out.print("The strings are equal.......");
 			}
-		
-		}
 		if(flag==s1.length())
-			System.out.print("The strings are equal.......");
+		
+		System.out.print("The strings are equal.......");
+		}
 		else
 			System.out.print("..............The strings are not equal.");
 		

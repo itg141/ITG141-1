@@ -10,12 +10,12 @@ public class Palindromornot {
 		for(int j=b-1;j>=0;j--)
 		{
 			if(s1.charAt(i)==s1.charAt(j))
-				a=1;
+				a++;
 			//System.out.println(a);
 				//System.out.println("The string is a palindrome");	
 		}
 	}
-	if(a==1)
+	if(a>1)
 		System.out.println("......The string is a palindrome......");
 	else
 		System.out.println("......The string is not a palindrome......");
@@ -23,3 +23,4 @@ public class Palindromornot {
 	}
 
 }
+//// discuss with sir.....

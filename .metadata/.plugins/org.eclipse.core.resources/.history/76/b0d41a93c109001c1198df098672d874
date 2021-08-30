@@ -20,6 +20,7 @@ public class ComparewithoutPredefinedFunctions {
 		
 		}
 		if(flag==s1.length())
+			
 			System.out.print("The strings are equal.......");
 		else
 			System.out.print("..............The strings are not equal.");
