@@ -1,0 +1,10 @@
+package string;
+
+public class CommoncharDel {
+	String s1= "Miracle city"
+
+	public static void main(String[] args) {
+		
+	}
+
+}

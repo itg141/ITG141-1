@@ -1,0 +1,19 @@
+package string;
+//to count the total number of characters in a string
+public class Strin1 {
+	
+
+	public static void main(String[] args) {
+		String s1= new String("Miracle city");
+		String s2= "Miracle";
+		for(int i=0;i<=s1.length();i++) {
+			for(int j=0;j<=s2.length();j++) {
+				if(s1.indexOf(i)==s2.indexOf(j)) {
+					System.out.println(s1.indexOf(i));
+				}
+			}
+		}
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package string;
+///to check whether the string is palindrome or not
+public class Palindromornot {
+
+	public static void main(String[] args) {
+	String s1= new String("madam");
+	for(int i=0;i<=s1.length();i++) {
+		for(int j=s1.length();j>=0;j--) {
+			if(s1.chartAt(i)==s1.charAt(j))
+				System.out.print("The string is a palindrome");
+		}
+	}
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package string;
+//to count the total number of characters in a string
+public class Strin1 {
+	String str="Raja is great";
+	
+
+	public static void main(String[] args) {
+		
+	}
+
+}
