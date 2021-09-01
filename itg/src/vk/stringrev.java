@@ -1,6 +1,6 @@
 package vk;
 import java.util.Scanner;
-public class string3 {
+public class stringrev{
 public static void main(String[] args) {
 Scanner in = new Scanner(System.in);
 System.out.printf("enter string:");

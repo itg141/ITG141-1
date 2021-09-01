@@ -1,7 +1,7 @@
 package vk;
 
 import java.util.Scanner;
-public class string12 {
+public class replacefirword {
 
 	public static void main(String[] args) {
 				String s;

@@ -1,6 +1,6 @@
 package vk;
 
-public class string6 {
+public class findlenstring {
 
 	public static void main(String[] args) {
 				String s="shiva";

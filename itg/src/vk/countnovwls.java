@@ -1,6 +1,6 @@
 package vk;
 import java.util.Scanner;
-public class string10 {
+public class countnovwls {
 public static void main(String args[]) {
 String s;
 int v=0,c=0,w=0;

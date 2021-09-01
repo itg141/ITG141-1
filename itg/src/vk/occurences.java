@@ -1,6 +1,6 @@
 package vk;
 
-public class string11 {
+public class occurences {
 	public static void main(String[] args) {
 		String s ="i am dead";
 		int count=0;

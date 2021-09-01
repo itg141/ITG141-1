@@ -1,6 +1,6 @@
 package vk;
 import java.util.Scanner;
-public class string1 {
+public class stringdel {
 	public static void main(String[] args) {
 				Scanner in = new Scanner(System.in);
 		System.out.printf("enter string:");

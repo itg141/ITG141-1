@@ -1,6 +1,6 @@
 package vk;
 import java.util.*;
-public class string7 {
+public class alphaborder {
 public static void main(String args[]) {
 String str;
 Scanner sc = new Scanner(System.in);

@@ -1,6 +1,6 @@
 package vk;
 import java.util.Scanner;
-public class string2 {
+public class stringwrdschar {
 public static void main(String args[]) {
 String str;
 int count=0,sp,wds,count1=0,vl,count2=0,con, schar,c=0;

@@ -1,6 +1,6 @@
 package vk;
 import java.util.Scanner;
-public class string4 {
+public class firstupper {
 public static void main(String[] args) {
 Scanner in = new Scanner(System.in);
 System.out.println("enter string:");
