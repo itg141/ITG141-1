@@ -1,0 +1,21 @@
+package methodoverloading;
+
+public class Method1 {
+
+	public static void main(String[] args) {
+		Raja r= new Raja();
+		r.add(2, 3);
+		r.add(1, 2,3);
+
+	}
+
+}
+
+class Raja{
+	void add(int a, int b) {
+		System.out.println("The sum is : "+(a+b));
+	}
+	void add(int a, int b,int c) {
+		System.out.println("THE SUM IS : "+(a+b+c));
+	}
+}
