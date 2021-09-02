@@ -16,7 +16,7 @@ public class Perfectnumber {
 
 	public static void main(String[] args) {
 		Perfectnumber f= new Perfectnumber();
-		f.Return(6);
+		f.Return(5);
 	}
 
 }

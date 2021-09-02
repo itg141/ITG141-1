@@ -1,10 +1,17 @@
 package string;
 // compare two strings without pre-defined functions
+import java.util.Scanner;
 public class ComparewithoutPredefinedFunctions {
 
 	public static void main(String[] args) {
-		String s1="Hello World";
-		String s2="Hellu World";
+		//String s1="Hello World";
+		//String s2="Hello World";
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the first string : ");
+		String s1= sc.nextLine();
+		System.out.println("Enter the second string : ");
+		String s2= sc.nextLine();
+		sc.close();
 		int flag=0;
 		int a=s1.length();
 		int b=s2.length();

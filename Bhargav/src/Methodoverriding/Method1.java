@@ -1,23 +1,29 @@
-/*package Methodoverriding;
-
+package Methodoverriding;
+import java.util.Scanner;
 public class Method1 {
-	static int add(double a, double b) {
-		int c= (int) (a+b);
-		return c;
-	}	 
+	 void add(int a, int b) {
+		 System.out.println("The sum of the two numbers is : "+(a+b));
+		 		
+	}
+	 void sub(int a, int b) {
+		 System.out.println(a-b);
+	 }
 	public static void main(String[] args) {
-	
-		//Method2 m2=new Method2();
-		System.out.println(m2.add(5, 6));
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter the first number :");
+		int a= sc.nextInt();
+		System.out.println("Enter the second number :");
+		int b = sc.nextInt();
+		sc.close();
+		Method1 m= new Method1();
+		m.add(a,b);
 }
 class Method2 extends Method1{
-	int add(int a,int b) {
-		//Method1 m=new Method1();
-		//add(5.0, 6.0);
+	void add(int a,int b) {
 		System.out.println(a+" Method2");
 		System.out.println(b+" Method2");
-		return a+b;
-		//System.out.println(a);
+		System.out.println(a+b);
+		
 	}
 }
-}*/
+}

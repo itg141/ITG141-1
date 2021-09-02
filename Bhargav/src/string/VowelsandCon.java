@@ -3,7 +3,7 @@ package string;
 public class VowelsandCon {
 
 	public static void main(String[] args) {
-		String str="Bhargav";
+		String str="miracle city";
 		int count=0,ccount=0;
 		char ch[]=str.toCharArray();
 		for(char c: ch) {
@@ -16,7 +16,7 @@ public class VowelsandCon {
 				}
 		System.out.println(str);
 				System.out.println("No of vowels ="+count);
-				System.out.println("No of conosonanats ="+ccount);
+				System.out.println("No of consonanats ="+ccount);
 		}
 
 	}
