@@ -1,5 +1,5 @@
 package Methodoverriding;
-/// check demo.java,demo1.java and Abstractclass.java because they are interlinked
+/// check demo and demo1 because they are interlinked
 public class Demo1 extends Derived{
 
 	public static void main(String[] args) {

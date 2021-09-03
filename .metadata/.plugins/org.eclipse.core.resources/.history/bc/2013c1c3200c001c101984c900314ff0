@@ -10,10 +10,10 @@ class Test1 implements Demo{
 		System.out.println("Abstract method display : From interface demo");
 	}
 	public void view() {
-		System.out.println("Abstract methdo display :"); // these are abstract methods that are overrided rom interface demo
+		System.out.println("Abstract methdo display :");
 	}
 	int add(int a, int b) {
-		System.out.println("The sum is :  "+(a+b));    /// this is a concrete method
+		System.out.println("The sum is :  "+(a+b));
 		return a+b;
 	}
 }
